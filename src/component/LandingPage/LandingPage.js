@@ -10,6 +10,7 @@ import Logo from '../Logo/logo';
 import heading1 from '../../assets/Group 553.png';
 import heading2 from '../../assets/Group 678.png';
 import Carousel from '../Carousel_Testing2/Carousel'
+import MainNavBar from '../MainNavBar/MainNavBar';
 function LandingPage() {
 
     // var rellax = new Rellax('.rellax');
@@ -114,6 +115,7 @@ function LandingPage() {
     // }
     return (
         <div>
+            <MainNavBar/>
             <section className="">
                 {/* <Logo /> */}
                 <div className="sky"></div>

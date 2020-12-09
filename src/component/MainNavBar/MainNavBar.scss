@@ -1,0 +1,29 @@
+.MainNavBar-Container{
+    background-color: #46C1BB;
+    display: flex;
+    justify-content: space-between;
+
+    .MainNavBar-Img{
+        width: 400px;
+    }
+    
+    .MainNavBar-list{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 10%;
+        color: hsl(184, 24%, 88%);
+
+        .MainNavBar-listItem{
+            padding-right: 40px;
+        }
+
+        .MainNavBar-icons{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-width: 6vw;
+            margin-top: -35px;
+        }
+    }
+
+}
